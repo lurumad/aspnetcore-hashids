@@ -1,0 +1,42 @@
+<Project>
+  <PropertyGroup Label="SDK Versions">
+    <NetStandardTargetVersion21>netstandard2.1</NetStandardTargetVersion21>
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
+    <LangVersion>preview</LangVersion>
+    <RazorLangVersion>3.0</RazorLangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package information">
+    <PackageLicenseUrl>https://github.com/Xabaril/AspNetCore.Hashids/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://github.com/xabaril/AspNetCore.Hashids</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xabaril/AspNetCore.Hashids</RepositoryUrl>
+    <Authors>Xabaril Contributors</Authors>
+    <Company>Xabaril</Company>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>true</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <PropertyGroup Label="AspNetCore.Hashids Versions">
+    <AspNetCoreHashids>1.0.0$(VersionSuffix)</AspNetCoreHashids>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Dependencies">
+    <AspNetCoreVersion>3.1.3</AspNetCoreVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Testing Dependencies">
+    <MicrosoftNETTestSdk>16.5.0</MicrosoftNETTestSdk>
+    <xunit>2.4.1</xunit>
+    <xunitrunnervisualstudio>2.4.1</xunitrunnervisualstudio>
+    <coverletcollector>1.2.0</coverletcollector>
+    <AcheveTestHost>3.0.0</AcheveTestHost>
+    <FluentAssertions>5.10.3</FluentAssertions>
+    <MicrosoftAspNetCoreTestHost>3.1.3</MicrosoftAspNetCoreTestHost>
+    <AutoFixtureXunit2>4.11.0</AutoFixtureXunit2>
+  </PropertyGroup>
+
+  <PropertyGroup Label="CLI Tools Versions">
+
+  </PropertyGroup>
+  
+</Project>
